@@ -1,0 +1,47 @@
+@import url("recipe.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --young:"Young", serif;
+    --outfit: "Outfit",sans-serif;
+
+    --stone-100: #f3e6d8;
+    --stone-150: #e4ded8;
+    --stone-600: #5f574e;
+    --stone-900: #302d2c;
+
+    --brown-800: #854632;
+
+    --rose-800: #7b284f;
+    --rose-50: #fff5fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--stone-100);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: center;
+}
+
+.align-start {
+    width:592px;
+    letter-spacing: 0%;
+    text-align:start;
+}
