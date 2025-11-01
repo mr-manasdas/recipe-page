@@ -53,4 +53,13 @@ hr {
   background-color:var(--stone-150);
   height: 1px;
 }
-   
+
+.sec-head {
+    width:536px;
+    height:auto;
+    font-family: var(--young);
+    font-weight:600;
+    font-size:26px;
+    line-height: auto;
+    color:var(--brown-800);
+}   
