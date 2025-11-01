@@ -45,3 +45,12 @@ body {
     letter-spacing: 0%;
     text-align:start;
 }
+
+hr {
+  border: 0;
+  clear:both;
+  width: 90%;               
+  background-color:var(--stone-150);
+  height: 1px;
+}
+   
