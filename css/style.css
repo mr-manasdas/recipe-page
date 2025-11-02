@@ -28,9 +28,9 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--stone-100);
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    place-content: center;
+    place-items: center;
 }
 
 .flex-center {
